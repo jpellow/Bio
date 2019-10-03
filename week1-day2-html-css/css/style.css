@@ -11,8 +11,12 @@ header{
 h1{
     color: #eee;
     size: 28px;
-    margin: 50px;
-    padding: 50px;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 28px;
 }
 .container{
     width: 1024px;
@@ -24,9 +28,16 @@ h1{
 }
 #contact-info{
     float: left;
+    width: 30%;
+    line-height: 150%;
+
+}
+a{
+    color: #d21034;
 }
 #bio-image{
     float: left;
     width: 200px;
-    margin: 10px
+    margin-right: 20px;
+
 }
